@@ -19,7 +19,7 @@ There is no prerequisites. Just browse to the URL and have some fun!
 
 ## Using Chuck's Jokes
 
-Just browse to: 
+Just browse to: https://chucks-jokes.netlify.app/
 
 ## Contributing to Chuck's Jokes
 To contribute to chucks-jokes, follow these steps:
