@@ -15,47 +15,52 @@
 
 <body>
     <!-- Wrapper -->
-    <div id="wrapper">
+    <div class="wrapper">
         <!-- Header -->
-        <div class="header">
-            <h1>Chuck's Jokes</h1>
-        </div>
-        <div class="joke-container" id="joke-container">
-            <!-- Joke -->
-            <div class="joke-text">
-                <i class="fas fa-quote-left"></i>
-                <span id="joke"></span>
-                <i class="fas fa-quote-right"></i>
-            </div>
+        <nav class="header">
+            <h1><a href="/">Chuck's Jokes</a></h1>
+            <img class="img-header" src="/img/chuck_norris_approved.png" alt="image: chuck norris approved">
+        </nav>
+        <div class="container">
+            <div class="joke-container" id="joke-container">
+                <!-- Joke -->
+                <div class="joke-text">
+                    <i class="fas fa-quote-left"></i>
+                    <span id="joke"></span>
+                    <i class="fas fa-quote-right"></i>
+                </div>
 
-            <!-- Buttons -->
-            <div class="button-container">
-                <button class="twitter-button" id="twitter" title="Tweet it!">
-                    <i class="fab fa-twitter"></i>
-                </button>
-                <span class="input-container">
-                    Search for a joke with:
-                    <input type="text" id="input-search">
-                </span>
-                <button id="new-joke" title="Get a new joke!">New joke</button>
+                <div>
+                    <button class="btn-twitter" id="btn-twitter" title="Tweet it!">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                </div>
             </div>
+            <div class="input-container">
+                Type to search or leave it empty for a random joke: <br>
+                <input type="text" id="input-search">
+                <button id="btn-new-joke" title="Get a new joke!">New joke</button>
+                <button id="btn-clear">Clear</button>
+            </div>
+            <!-- Message -->
+            <div class="message"></div>
+            <!-- Loader -->
+            <div class="loader" id="loader"></div>
         </div>
-        <!-- Message -->
-        <div class="message"></div>
-        <!-- Footer -->
-        <footer class="footer">
-            <p>
-                <a href="https://github.com/guinuxbr/" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/guinuxbr" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/gllmarques/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/guinuxbr" target="_blank"><i class="fab fa-instagram"></i></a><br>
-                <a href="https://guinuxbr.com" target="_blank">GuinuxBR</a><br>
-                Jokes powered by <a href="https://api.chucknorris.io/" target="_blank">chucknorris.io</a>
-            </p>
-        </footer>
     </div>
-    <!-- Loader -->
-    <div class="loader" id="loader"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <a href="https://github.com/guinuxbr/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/guinuxbr" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/gllmarques/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/guinuxbr" target="_blank"><i class="fab fa-instagram"></i></a><br>
+            <a href="https://guinuxbr.com" target="_blank">GuinuxBR</a><br>
+            Jokes powered by <a href="https://api.chucknorris.io/" target="_blank">chucknorris.io</a>            
+        </p>
+        <span class="disclaimer">Legal disclaimer: This website and its creators are not affiliated with Chuck Norris, any motion picture corporation, any television corporation, parent, or affiliate corporation. All motion pictures, products, and brands mentioned on this website are the respective trademarks and copyrights of their owners. All material on this website is intended for humorous entertainment (satire) purposes only. The content on this website is not necessarily true and should not be regarded as truth.</span>
+    </footer>
     <!-- Script -->
     <script src="js/script.js"></script>
 </body>
