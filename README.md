@@ -11,6 +11,8 @@ This is a simple JavaScript app that uses the [chucknorris.io](https://api.chuck
 
 It is possible to search for a joke that contains a specific term.
 
+You can tweet your favorite jokes too.
+
 ## Screenshot
 ![screenshot](./screenshot.png)
 
