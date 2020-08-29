@@ -4,6 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/guinuxbr/chucks-jokes)
 ![GitHub stars](https://img.shields.io/github/stars/guinuxbr/chucks-jokes)
 ![GitHub forks](https://img.shields.io/github/forks/guinuxbr/chucks-jokes)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f67b0f5a-af05-4168-8d46-9c8ca63925a5/deploy-status)](https://app.netlify.com/sites/chucks-jokes/deploys)
 ![Twitter Follow](https://img.shields.io/twitter/follow/guinuxbr?style=social)
 
 This is a simple JavaScript app that uses the [chucknorris.io](https://api.chucknorris.io/) API to fetch a random Chuck Norris joke.
