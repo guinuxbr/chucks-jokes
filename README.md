@@ -4,27 +4,28 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/guinuxbr/chucks-jokes)
 ![GitHub stars](https://img.shields.io/github/stars/guinuxbr/chucks-jokes)
 ![GitHub forks](https://img.shields.io/github/forks/guinuxbr/chucks-jokes)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f67b0f5a-af05-4168-8d46-9c8ca63925a5/deploy-status)](https://app.netlify.com/sites/chucks-jokes/deploys)
 ![Twitter Follow](https://img.shields.io/twitter/follow/guinuxbr?style=social)
 
 This is a simple JavaScript app that uses the [chucknorris.io](https://api.chucknorris.io/) API to fetch a random Chuck Norris joke.
 
 It is possible to search for a joke that contains a specific term.
 
-You can tweet your favorite jokes too.
+You can tweet your favourite jokes too.
 
 ## Screenshot
+
 ![screenshot](./screenshot.png)
 
 ## Prerequisites
 
-There is no prerequisites. Just browse to the URL and have some fun!
+There are no prerequisites. Just browse the URL and have some fun!
 
 ## Using Chuck's Jokes
 
-Just browse to: https://chucksjokes.netlify.app/
+Just browse to: <https://chucksjokes.guinuxbr.com>
 
 ## Contributing to Chuck's Jokes
+
 To contribute to chucks-jokes, follow these steps:
 
 1. Fork this repository.
@@ -33,13 +34,16 @@ To contribute to chucks-jokes, follow these steps:
 4. Push to the original branch: `git push origin chucks-jokes/<location>`
 5. Create the pull request.
 
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Maintainer & Contributors
+
 * [@guinuxbr](https://github.com/guinuxbr)
 
 ## Contact
+
 If you want to contact me you can send an email to guinuxbr@gmail.com.
 
 ## License
+
 This project uses the following license: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
