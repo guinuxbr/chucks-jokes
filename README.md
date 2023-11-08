@@ -42,8 +42,8 @@ Alternatively, see the GitHub documentation on [creating a pull request](https:/
 
 ## Contact
 
-If you want to contact me you can send an email to guinuxbr@gmail.com.
+If you want to contact me you can email <guinuxbr@gmail.com>.
 
-## License
+## Licence
 
-This project uses the following license: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
+This project uses the following licence: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
