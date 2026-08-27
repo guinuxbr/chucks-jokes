@@ -4,46 +4,76 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/guinuxbr/chucks-jokes)
 ![GitHub stars](https://img.shields.io/github/stars/guinuxbr/chucks-jokes)
 ![GitHub forks](https://img.shields.io/github/forks/guinuxbr/chucks-jokes)
-![Twitter Follow](https://img.shields.io/twitter/follow/guinuxbr?style=social)
+[![X Follow](https://img.shields.io/badge/X-@guinuxbr-000000?style=flat&logo=x&logoColor=white)](https://x.com/guinuxbr)
 
-This is a simple JavaScript app that uses the [chucknorris.io](https://api.chucknorris.io/) API to fetch a random Chuck Norris joke.
+A fast, accessible, and feature-packed web application for legendary Chuck Norris jokes powered by the
+[chucknorris.io](https://api.chucknorris.io/) API.
 
-It is possible to search for a joke that contains a specific term.
+---
 
-You can tweet your favourite jokes too.
+## ✨ Features
 
-## Screenshot
+- 🎲 **Random & Category Jokes**: Fetch fresh jokes dynamically or filter across official categories
+  (*dev, movies, food, science, celebrities, etc.*).
+- 🔍 **Smart Search with Browsing**: Search for any topic and navigate through all matching jokes with previous/next
+  controls.
+- 🔊 **Text-to-Speech (TTS)**: Built-in voice narration to hear Chuck Norris wisdom read aloud.
+- 📋 **One-Click Copy**: Instant clipboard copying with sleek toast notifications.
+- ❤️ **Favourites & Bookmarks**: Save your favourite jokes locally in your browser to read and share anytime.
+- 🌙 **Dark & Light Mode**: Seamless theme switching with automatic system OS preference detection.
+- ⌨️ **Keyboard Navigation**: Power-user shortcuts for quick, mouse-free browsing.
+- 📲 **PWA & Offline Capable**: Installable as a progressive web app with Service Worker offline caching.
+- 🚀 **Automated CI/CD**: Automatic deployment to GitHub Pages via GitHub Actions.
 
-![screenshot](./screenshot.png)
+---
 
-## Prerequisites
+## ⌨️ Keyboard Shortcuts
 
-There are no prerequisites. Just browse the URL and have some fun!
+| Key                              | Action                                  |
+|:---------------------------------|:----------------------------------------|
+| <kbd>Space</kbd> or <kbd>N</kbd> | Get a new random or category joke       |
+| <kbd>Enter</kbd>                 | Search when typing in search input      |
+| <kbd>→</kbd> / <kbd>←</kbd>      | Next / Previous joke in search results  |
+| <kbd>C</kbd>                     | Copy current joke to clipboard          |
+| <kbd>S</kbd>                     | Speak / Listen to joke (Text-to-Speech) |
+| <kbd>F</kbd>                     | Toggle Favourite (Save / Remove)        |
+| <kbd>/</kbd>                     | Focus search box                        |
+| <kbd>Esc</kbd>                   | Close modals or clear search input      |
 
-## Using Chuck's Jokes
+---
 
-Just browse to: <https://chucksjokes.guinuxbr.com>
+## 🌐 Live Demo
 
-## Contributing to Chuck's Jokes
+Visit the live app: **[https://chucksjokes.guinuxbr.com](https://chucksjokes.guinuxbr.com)**
 
-To contribute to chucks-jokes, follow these steps:
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5 & Modern Semantics** with ARIA accessibility compliance
+- **CSS3 / Modern Variables & Glassmorphism** (responsive down to 320px, zero layout shift)
+- **Vanilla JavaScript (ES6+)** with Fetch API, Web Speech API, Clipboard API, and Web Share API
+- **Font Awesome 6** & **Google Fonts (Poppins)**
+- **GitHub Actions** for automated CI/CD deployment
+
+---
+
+## 🤝 Contributing
 
 1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin chucks-jokes/<location>`
-5. Create the pull request.
+2. Create a feature branch: `git checkout -b feature/awesome-feature`
+3. Commit your changes: `git commit -m 'Add awesome feature'`
+4. Push to branch: `git push origin feature/awesome-feature`
+5. Open a Pull Request.
 
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+---
 
-## Maintainer & Contributors
+## 👤 Maintainer
 
-* [@guinuxbr](https://github.com/guinuxbr)
+- **Guilherme Marques** ([@guinuxbr](https://github.com/guinuxbr)) — [guinuxbr.com](https://guinuxbr.com)
 
-## Contact
+---
 
-If you want to contact me you can email <guinuxbr@gmail.com>.
+## 📜 Licence
 
-## Licence
-
-This project uses the following licence: [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
+This project is licensed under the [GNU GPLv3 License](https://www.gnu.org/licenses/gpl-3.0.html).
