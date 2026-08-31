@@ -1067,7 +1067,8 @@ function setupEventListeners() {
       document.activeElement === dom.inputSearch ||
       document.activeElement === dom.selectCategory ||
       document.activeElement?.tagName === "INPUT" ||
-      document.activeElement?.tagName === "TEXTAREA";
+      document.activeElement?.tagName === "TEXTAREA" ||
+      document.activeElement?.tagName === "SELECT";
 
     // Handle Escape key anywhere
     if (e.key === "Escape") {
