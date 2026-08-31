@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="system">
+<html lang="en-GB" data-theme="system">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuck's Jokes - Legendary Chuck Norris Jokes</title>
-    <meta name="description" content="Discover, search, listen to, and share legendary Chuck Norris jokes with categories, favorites, dark mode, and speech narration.">
+    <meta name="description" content="Discover, search, listen to, and share legendary Chuck Norris jokes with categories, favourites, dark mode, and speech narration.">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -49,14 +49,14 @@
                 </a>
 
                 <nav class="header-nav" aria-label="Header Tools">
-                    <button id="btn-theme-toggle" class="btn-header-icon" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+                    <button id="btn-theme-toggle" class="btn-header-icon" title="Toggle Light/Dark Theme (T)" aria-label="Toggle theme">
                         <i class="fa-solid fa-moon" id="icon-theme"></i>
                     </button>
-                    <button id="btn-favorites-toggle" class="btn-header-icon" title="View Saved Favorites" aria-label="View Saved Favorites">
+                    <button id="btn-favorites-toggle" class="btn-header-icon" title="View Saved Favourites (F)" aria-label="View Saved Favourites">
                         <i class="fa-solid fa-bookmark"></i>
                         <span id="favorites-badge" class="badge-count" style="display: none;">0</span>
                     </button>
-                    <button id="btn-shortcuts-toggle" class="btn-header-icon" title="Keyboard Shortcuts" aria-label="Keyboard Shortcuts">
+                    <button id="btn-shortcuts-toggle" class="btn-header-icon" title="Keyboard Shortcuts (?)" aria-label="Keyboard Shortcuts">
                         <i class="fa-solid fa-keyboard"></i>
                     </button>
                 </nav>
@@ -97,9 +97,9 @@
                                 <i class="fa-solid fa-volume-high" id="icon-speak"></i>
                                 <span id="label-speak">Listen</span>
                             </button>
-                            <button id="btn-favorite" class="btn-action" title="Save to favorites (F)" aria-label="Save to favorites">
+                            <button id="btn-favorite" class="btn-action" title="Save to favourites (F)" aria-label="Save to favourites">
                                 <i class="fa-regular fa-heart" id="icon-favorite"></i>
-                                <span id="label-favorite">Favorite</span>
+                                <span id="label-favorite">Favourite</span>
                             </button>
                         </div>
                         <div class="actions-right">
@@ -167,24 +167,24 @@
                         <span><kbd>Space</kbd> / <kbd>N</kbd> New Joke</span>
                         <span><kbd>C</kbd> Copy</span>
                         <span><kbd>S</kbd> Listen</span>
-                        <span><kbd>F</kbd> Favorite</span>
+                        <span><kbd>F</kbd> Favourite</span>
                         <span><kbd>/</kbd> Search</span>
                     </div>
                 </section>
             </div>
         </main>
 
-        <!-- Favorites Modal / Drawer -->
+        <!-- Favourites Modal / Drawer -->
         <div id="modal-favorites" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="favorites-title">
             <div class="modal-card">
                 <div class="modal-header">
-                    <h2 id="favorites-title"><i class="fa-solid fa-bookmark"></i> Saved Favorites</h2>
+                    <h2 id="favorites-title"><i class="fa-solid fa-bookmark"></i> Saved Favourites</h2>
                     <button class="btn-modal-close" id="btn-close-favorites" aria-label="Close modal">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
                 </div>
                 <div class="modal-body" id="favorites-list-container">
-                    <p class="empty-state-text">No favorite jokes saved yet. Click the ❤️ button on any joke to save it!</p>
+                    <p class="empty-state-text">No favourite jokes saved yet.<br>Click the ❤️ button on any joke to save it!</p>
                 </div>
                 <div class="modal-footer">
                     <button id="btn-clear-all-favorites" class="btn-danger-outline" style="display: none;">
@@ -236,6 +236,14 @@
                             <tr>
                                 <td><kbd>F</kbd></td>
                                 <td>Toggle Favorite (Save / Remove)</td>
+                            </tr>
+                            <tr>
+                                <td><kbd>T</kbd></td>
+                                <td>Toggle Dark / Light theme mode</td>
+                            </tr>
+                            <tr>
+                                <td><kbd>?</kbd></td>
+                                <td>Open Keyboard Shortcuts guide</td>
                             </tr>
                             <tr>
                                 <td><kbd>/</kbd></td>
