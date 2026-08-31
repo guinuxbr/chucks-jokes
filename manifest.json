@@ -1,7 +1,7 @@
 {
   "name": "Chuck's Jokes - Legendary Chuck Norris Jokes",
   "short_name": "Chuck's Jokes",
-  "description": "The ultimate collection of Chuck Norris jokes, featuring search, categories, text-to-speech, favorites, and dark mode.",
+  "description": "The ultimate collection of Chuck Norris jokes, featuring search, categories, text-to-speech, favourites, and dark mode.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0d1b2a",

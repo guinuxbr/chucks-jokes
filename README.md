@@ -23,22 +23,23 @@ A fast, accessible, and feature-packed web application for legendary Chuck Norri
 - 🌙 **Dark & Light Mode**: Seamless theme switching with automatic system OS preference detection.
 - ⌨️ **Keyboard Navigation**: Power-user shortcuts for quick, mouse-free browsing.
 - 📲 **PWA & Offline Capable**: Installable as a progressive web app with Service Worker offline caching.
-- 🚀 **Automated CI/CD**: Automatic deployment to GitHub Pages via GitHub Actions.
+- 🚀 **Automated CI/CD**: Automatic deployment to GitHub Pages via GitHub Actions with pinned commit SHAs.
 
 ---
 
 ## ⌨️ Keyboard Shortcuts
 
-| Key                              | Action                                  |
-|:---------------------------------|:----------------------------------------|
-| <kbd>Space</kbd> or <kbd>N</kbd> | Get a new random or category joke       |
-| <kbd>Enter</kbd>                 | Search when typing in search input      |
-| <kbd>→</kbd> / <kbd>←</kbd>      | Next / Previous joke in search results  |
-| <kbd>C</kbd>                     | Copy current joke to clipboard          |
-| <kbd>S</kbd>                     | Speak / Listen to joke (Text-to-Speech) |
-| <kbd>F</kbd>                     | Toggle Favourite (Save / Remove)        |
-| <kbd>/</kbd>                     | Focus search box                        |
-| <kbd>Esc</kbd>                   | Close modals or clear search input      |
+| Key                              | Action                                              |
+|:---------------------------------|:----------------------------------------------------|
+| <kbd>Space</kbd> or <kbd>N</kbd> | Get a new random or category joke                   |
+| <kbd>/</kbd>                     | Focus search box                                    |
+| <kbd>→</kbd> / <kbd>←</kbd>      | Next / Previous joke in search results              |
+| <kbd>C</kbd>                     | Copy current joke to clipboard                      |
+| <kbd>S</kbd>                     | Speak / Listen to joke (Text-to-Speech)             |
+| <kbd>F</kbd>                     | Toggle Favourite or open Favourites manager         |
+| <kbd>T</kbd>                     | Toggle Dark / Light theme mode                      |
+| <kbd>?</kbd>                     | Open Keyboard Shortcuts guide                       |
+| <kbd>Esc</kbd>                   | Close open modals or clear search input             |
 
 ---
 
@@ -52,7 +53,7 @@ Visit the live app: **[https://chucksjokes.guinuxbr.com](https://chucksjokes.gui
 
 - **HTML5 & Modern Semantics** with ARIA accessibility compliance
 - **CSS3 / Modern Variables & Glassmorphism** (responsive down to 320px, zero layout shift)
-- **Vanilla JavaScript (ES6+)** with Fetch API, Web Speech API, Clipboard API, and Web Share API
+- **Vanilla JavaScript (ES6+)** with Fetch API, Web Speech API, Clipboard API, Web Share API, and LocalStorage
 - **Font Awesome 6** & **Google Fonts (Poppins)**
 - **GitHub Actions** for automated CI/CD deployment
 
